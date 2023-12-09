@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Geforce Now OS Switcher",
+    "version": "1.0",
+    "description": "Play Genshin Impact on Geforce now on Linux/Steam Deck",
+    "permissions": [
+        "declarativeNetRequest",
+        "declarativeNetRequestWithHostAccess"
+    ],
+    "host_permissions": [
+        "*://play.geforcenow.com/*",
+        "*://*.nvidiagrid.net/*",
+        "*://games.geforce.com/*"
+    ],
+    "declarative_net_request": {
+        "rule_resources": [
+            {
+                "id": "header_modifier_ruleset",
+                "enabled": true,
+                "path": "rules.json"
+            }
+        ]
+    }
+}

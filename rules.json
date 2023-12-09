@@ -1,0 +1,22 @@
+[
+    {
+        "id": 123,
+        "priority": 1,
+        "condition": {
+            "urlFilter": "*",
+            "resourceTypes": [
+                    "xmlhttprequest"
+            ]
+        },
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {
+                    "header": "Nv-Device-Os",
+                    "operation": "set",
+                    "value": "WINDOWS"
+                }
+            ]
+        }
+    }
+]
