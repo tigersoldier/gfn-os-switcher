@@ -7,6 +7,9 @@
         "declarativeNetRequest",
         "declarativeNetRequestWithHostAccess"
     ],
+    "icons": {
+        "128": "icon128.png"
+    },
     "host_permissions": [
         "*://play.geforcenow.com/*",
         "*://*.nvidiagrid.net/*",
